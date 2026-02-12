@@ -6,21 +6,49 @@ date:
 
 # Task 1: Write a program to calculate the factorial of any number that the user enters using a loop. Ex. 5! = 5*4*3*2*1 = 120
 # Your code goes here
-
+x = int(input("Enter value: "))
+value = 1
+for i in range(1, x+1):
+    value = value * i
+    print(value)
 
 
 # Task 2a: Write a program that asks for five marks and computes the average, rounded to 1 decimal place.
 # Your code goes here
+a = int(input("Enter number 1: "))
+b = int(input("Enter number 2: "))
+c = int(input("Enter number 3: "))
+d = int(input("Enter number 4: "))
+e = int(input("Enter number 5: "))
 
+lst = [a, b, c, d, e]
 
+total = sum(lst)
+length = len(lst)
+average = total/length
 
+print(average.1f)
 # 2b)  Modify the program from task 2a to also output the lowest and highest mark WITHOUT lists.
 # Your code goes here
+a = int(input("Enter number 1: "))
+b = int(input("Enter number 2: "))
+c = int(input("Enter number 3: "))
+d = int(input("Enter number 4: "))
+e = int(input("Enter number 5: "))
 
+average = (a + b + c + d + e) / 5
 
+highest = max(a, b, c, d, e)
+lowest = min(a, b, c, d, e)
 
+print(f"Average: {average:.1f}")
+print(f"Highest Mark: {highest}")
+print(f"Lowest Mark: {lowest}")
 # 2c)  Modify the program from task 2b to check if the mark entered is between 0 and 100. Keep asking user for input until they give a valid grade.
 # Your code goes here
+while (!= 5)
+    
+    
 
 
 
